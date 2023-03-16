@@ -28,3 +28,12 @@ git remote add origin git@github.com:yourusername/your-repo.git
 ```
 
 这条命令会将远程仓库的地址 `git@github.com:yourusername/your-repo.git` 添加到本地仓库的 remote 列表中，并将这个远程仓库命名为 `origin`。这样，你就可以使用类似 `git pull origin master`、`git push origin main` 等命令与远程仓库进行交互了。
+
+
+
+
+git subtree pull --prefix=child git@github.com:EricWong1994/git-research-child.git master
+
+git remote add child git@github.com:EricWong1994/git-research-child.git
+
+git subtree pull --prefix=child child master
