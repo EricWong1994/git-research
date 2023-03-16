@@ -37,3 +37,5 @@ git subtree pull --prefix=child git@github.com:EricWong1994/git-research-child.g
 git remote add child git@github.com:EricWong1994/git-research-child.git
 
 git subtree pull --prefix=child child master
+
+git subtree pull --prefix=child child master --squash
